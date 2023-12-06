@@ -1,0 +1,4 @@
+-- require('dap-python').resolve_python = function()
+--   -- change to me python
+--   return '/absolute/path/to/python'
+-- end
