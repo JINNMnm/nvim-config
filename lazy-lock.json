@@ -30,6 +30,7 @@
   "nvterm": { "branch": "main", "commit": "3e43be1d0ca60cc5e2dfc2d289b06577e7e57e98" },
   "plenary.nvim": { "branch": "master", "commit": "55d9fe89e33efd26f532ef20223e5f9430c8b0c0" },
   "swenv.nvim": { "branch": "main", "commit": "e877e095c8ee7868bc0f1327bb6f9eb23b80b29a" },
+  "tagbar": { "branch": "master", "commit": "5d6990e4fc5b3e3b88a3af90146f2561c4f6d828" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "6c921ca12321edaa773e324ef64ea301a1d0da62" },
   "telescope.nvim": { "branch": "master", "commit": "3f5f165447d797576206e3b9bd555ea8db85b6f2" },
   "ui": { "branch": "v2.0", "commit": "f50f9834e522b62ea89a84775091c1cf89af57a4" },

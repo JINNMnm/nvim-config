@@ -75,6 +75,7 @@ local plugins = {
     opts = {},
     -- lazy = false,
   },
+
   {
     "mfussenegger/nvim-dap",
     config = function(_, opts)
@@ -86,6 +87,7 @@ local plugins = {
       "cpp",
     }
   },
+
   {
     "mfussenegger/nvim-dap-python",
     ft = "python",
@@ -100,6 +102,7 @@ local plugins = {
       require("core.utils").load_mappings("dap_python")
     end,
   },
+
   {
     "rcarriga/nvim-dap-ui",
     event = "VeryLazy",
@@ -107,13 +110,17 @@ local plugins = {
     config = function()
       require "custom.configs.dap-ui"
     end
-  },{
+  },
+
+  {
     "cdelledonne/vim-cmake",
     -- config = function()
     --   require "custom.configs.vim_cmake"
     -- end,
     ft = "cpp",
-  },{
+  },
+
+  {
     "jay-babu/mason-nvim-dap.nvim",
     event = "VeryLazy",
     ft = "cpp",
@@ -125,11 +132,21 @@ local plugins = {
       require "custom.configs.mason_nvim_dap"
     end,
   },
+
   {
     'github/copilot.vim',
     config = function()
       require "custom.configs.copilot"
     end,
+    ft = {
+      "python",
+      "cpp",
+      "java",
+    }
+  },
+
+  {
+    'preservim/tagbar',
     ft = {
       "python",
       "cpp",
